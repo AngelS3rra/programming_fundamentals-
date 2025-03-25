@@ -1,0 +1,58 @@
+Algoritmo adsp
+	Definir opcion, i Como Entero
+	Definir radio, altura, largo, ancho Como Real
+	Definir area, volumen Como Real
+	Definir continuar Como Caracter
+	continuar <- "S"
+	
+	Mientras continuar = "S"
+		Escribir "Selecciona la figura para calcular su área y volumen:"
+		Escribir "1. Esfera"
+		Escribir "2. Cilindro"
+		Escribir "3. Prisma Rectangular"
+		Leer opcion
+		
+		Si opcion = 1 Entonces
+		
+			Escribir "Introduce el radio de la esfera:"
+			Leer radio
+			area <- 4 * 3.1416 * radio^2
+			volumen <- (4/3) * 3.1416 * radio^3
+			Escribir "Área de la esfera: ", area
+			Escribir "Volumen de la esfera: ", volumen
+		Sino
+			Si opcion = 2 Entonces
+				
+				Escribir "Introduce el radio del cilindro:"
+				Leer radio
+				Escribir "Introduce la altura del cilindro:"
+				Leer altura
+				area <- 2 * 3.1416 * radio * (radio + altura)
+				volumen <- 3.1416 * radio^2 * altura
+				Escribir "Área del cilindro: ", area
+				Escribir "Volumen del cilindro: ", volumen
+			Sino
+				Si opcion = 3 Entonces
+					
+					Escribir "Introduce el largo del prisma:"
+					Leer largo
+					Escribir "Introduce el ancho del prisma:"
+					Leer ancho
+					Escribir "Introduce la altura del prisma:"
+					Leer altura
+					area <- 2 * (largo * ancho + largo * altura + ancho * altura)
+					volumen <- largo * ancho * altura
+					Escribir "Área del prisma rectangular: ", area
+					Escribir "Volumen del prisma rectangular: ", volumen
+				Sino
+					Escribir "Opción inválida. Intenta de nuevo."
+				Fin Si
+			Fin Si
+		Fin Si
+		
+		Escribir "¿Deseas realizar otro cálculo? (S/N):"
+		Leer continuar
+		continuar <- Mayusculas(continuar)
+	Fin Mientras
+	
+Fin Algoritmo
