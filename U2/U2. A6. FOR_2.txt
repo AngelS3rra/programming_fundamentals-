@@ -1,0 +1,47 @@
+Algoritmo sin_titulo
+	
+	Definir numVendedores, numVentas, totalVentasVendedor, ventaMasAlta, contadorVentas, valorVenta, Vendedor, totalVentasEmpresa, totalGlobal Como Real
+    Definir totalVendedor, totalEmpresa Como Real
+    
+    totalVendedor = 0
+    totalEmpresa = 0
+    
+    Escribir "¿Cuántos vendedores quieres registrar?"
+    Leer numVendedores
+    
+    Para Vendedor = 1 Hasta numVendedores Hacer
+        Escribir "Ingrese el número de ventas realizadas por el vendedor ", Vendedor
+        Leer numVentas
+        totalVentasVendedor = 0
+        ventaMasAlta = 0
+        
+        Para contadorVentas = 1 Hasta numVentas Hacer
+            Escribir "Ingrese el valor de la venta ", contadorVentas
+            Leer valorVenta
+            totalVentasVendedor = totalVentasVendedor + valorVenta
+            Si valorVenta > ventaMasAlta Entonces
+                ventaMasAlta = valorVenta
+            FinSi
+        FinPara
+        
+        Escribir "Total de ventas del vendedor ", Vendedor, ": ", totalVentasVendedor
+        Escribir "Número de ventas realizadas: ", numVentas
+        Escribir "Venta más alta: ", ventaMasAlta
+        
+        Si ventaMasAlta < 100 O totalVentasVendedor < 1500 Entonces
+            Escribir "Pase a Recursos Humanos"
+        FinSi
+        
+        totalVendedor <- totalVendedor + totalVentasVendedor
+        totalEmpresa <- totalEmpresa + totalVentasVendedor
+    FinPara
+    
+    Escribir "Total de vendedores registrados: ", numVendedores
+    Escribir "Total de ventas globales de la empresa: ", totalEmpresa
+    
+    Si totalEmpresa > 20000 Entonces
+        Escribir "Alcanzamos la meta siuuuuuuuuuuuuuuu"
+    Sino
+        Escribir "Habrá que convocar una reunión."
+    FinSi
+FinAlgoritmo

@@ -1,0 +1,37 @@
+Proceso acm
+    Definir contraseña Como Caracter
+    Definir piezas, total_piezas Como Entero
+    Definir contraseña_corr, registro_completo Como Logico
+	
+    total_piezas = 0
+    contraseña_corr = Falso
+    registro_completo = Falso
+	
+    Mientras No contraseña_corr Hacer
+        Escribir "Ingrese la contraseña: "
+        Leer contraseña
+		
+        Si contraseña == "Abc123" Entonces
+            Escribir "Llamar al supervisor."
+            contraseña_corr = Verdadero
+        SiNo
+            Escribir "Bienvenido."
+            contraseña_corr = Verdadero
+            Mientras No registro_completo Hacer
+                Escribir "Ingrese la cantidad de piezas (Ingrese 0000 para finalizar): "
+                Leer piezas
+                Si piezas == 0000 Entonces
+                    registro_completo = Verdadero
+                SiNo
+                    total_piezas = total_piezas + piezas
+                FinSi
+            FinMientras
+        FinSi
+    FinMientras
+	
+    Si total_piezas > 10000 Entonces
+        Escribir "Se ha cumplido la meta con ", total_piezas, " piezas fabricadas."
+    SiNo
+        Escribir "Alerta para producción. Total piezas: ", total_piezas
+    FinSi
+FinProceso

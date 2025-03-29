@@ -1,0 +1,24 @@
+Algoritmo sin_titulo
+	
+	Escribir "ingrese su edad"
+	leer edad
+	Escribir "ingrese cuantos años ha trabajado"
+	leer a_t
+	Escribir "Anexe sus ingresos actuales"
+	Leer ingr
+	
+	Si edad > 18  y a_t > 5 y ingr > 5000  Entonces
+		credito = "tu crédito es de $10,000 a $15,000"
+		si edad > 35 y a_t > 10 y ingr > 10000 Entonces
+			credito = "Tu crédito es de $25,000 a $30,000"
+			
+		FinSi
+		si edad > 60 y a_t > 20 y ingr > 20000 Entonces
+			credito = "Tu crédito es de $50,000 a $100,000"
+		FinSi
+	SiNo
+		Escribir "Necesita contactar con algún asesor"
+	Fin Si
+	mostrar credito
+	
+FinAlgoritmo

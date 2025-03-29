@@ -1,0 +1,29 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el nombre del alumno a calificar: "
+	Leer nom
+	
+	Escribir "¿Cuántas materias calificará?"
+	Leer Mcal
+	
+	para i = 1 Hasta Mcal Hacer
+		Escribir "Ingrese la calificación", i," :"
+		Leer cal
+		suma = suma + cal
+	FinPara
+	
+	promedio = suma / Mcal
+	
+	si promedio > 6 Entonces
+		mj = "La calificación es aprobatoria"
+		
+		sino 
+			mj= "La calificación es reprobatoria"
+			
+		FinSi
+		si promedio = 10 Entonces
+			mj= "Es un Alumno destacado"
+		FinSi
+		
+		
+		Escribir "El Alumno: ", nom, " tiene un promedio de:", promedio, " ",mj 
+FinAlgoritmo

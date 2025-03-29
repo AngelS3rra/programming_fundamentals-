@@ -1,0 +1,15 @@
+Algoritmo sin_titulo
+	Escribir "Ingrese el primero número"
+	leer n1
+	Escribir "Ingrese el segundo número"
+	leer n2
+	
+	
+	Si n1 > n2 Entonces
+		Escribir "El número mayor es: ",n1 
+		Escribir "El número menor es: ",n2
+	SiNo
+		Escribir "El número mayor es: ",n2 
+		Escribir "El número menor es: ",n1
+	Fin Si
+FinAlgoritmo

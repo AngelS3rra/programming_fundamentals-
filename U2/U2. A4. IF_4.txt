@@ -1,0 +1,70 @@
+Algoritmo sin_titulo
+		Definir v1, v2, v3, v4, temp, suma, promedio Como Real
+		
+	
+		Escribir "Ingrese las ventas del vendedor 1:"
+		Leer v1
+		Escribir "Ingrese las ventas del vendedor 2:"
+		Leer v2
+		Escribir "Ingrese las ventas del vendedor 3:"
+		Leer v3
+		Escribir "Ingrese las ventas del  vendedor 4:"
+		Leer v4
+		
+		
+		Si v1 > v2 Entonces
+			may = v1
+			v1 = v2
+			v2 = may
+		FinSi
+		Si v1 > v3 Entonces
+			may = v1
+			v1 = v3
+			v3 = may
+		FinSi
+		Si v1 > v4 Entonces
+			may = v1
+			v1 = v4
+			v4 = may
+		FinSi
+		
+		Si v2 > v3 Entonces
+			may = v2
+			v2 = v3
+			v3 = may
+		FinSi
+		Si v2 > v4 Entonces
+			may = v2
+			v2 = v4
+			v4 = may
+		FinSi
+		
+		Si v3 > v4 Entonces
+			may = v3
+			v3 = v4
+			v4 = may
+		FinSi
+		
+		
+		Escribir "Las ventas de los vendedores ordenadas de menor a mayor son:"
+		Escribir "Vendedor 1: ", v1
+		Escribir "Vendedor 2: ", v2
+		Escribir "Vendedor 3: ", v3
+		Escribir "Vendedor 4: ", v4
+		
+	
+		Escribir "La diferencia entre el vendedor 4 y el vendedor 1 es: ", v4 - v1
+		Escribir "La diferencia entre el vendedor 2 y el vendedor 1 es: ", v2 - v1
+		Escribir "La diferencia entre el vendedor 4 y el vendedor 3 es: ", v4 - v3
+		Escribir "La diferencia entre el vendedor 3 y el vendedor 2 es: ", v3 - v2
+		
+		
+		sum_t = v1 + v2 + v3 + v4
+		promedio = sum_t / 4
+		
+		Escribir "La suma total de las ventas es: ", suma
+		Escribir "El promedio de las ventas es: ", promedio
+		
+FinAlgoritmo
+
+
