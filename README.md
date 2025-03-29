@@ -32,7 +32,15 @@ La unidad uno entramos con la introduccion a la programacion, inicializando con 
 
 [Unidad 1](https://github.com/AngelS3rra/programming_fundamentals-/tree/main/U1)
 
+Unidad 2:
+En la unidad 2 inciamos con las condiciones, if, for y while, a sí mismo desarrollamos ejercicios implementando las mismas
 
+[Unidad 2](https://github.com/AngelS3rra/programming_fundamentals-/tree/main/U2)
 
+Unidad 3:
+En esta Unidad enfocamos más en el uso de Github, así como podernos organizar más como programadores, por otra parte tambien se realizó otro ejercicio de for y while.
 
+[Unidad 3](https://github.com/AngelS3rra/programming_fundamentals-/tree/main/U3)
 
+Opiniones Personales:
+Nos dieron la introduccion a la materia de manera detallada y bien explicadas, tengo una buena experiencia de este primer cuatrimestre
