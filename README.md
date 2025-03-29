@@ -6,7 +6,8 @@ Aquí estarán las actividades de la materia de programación
 
 
 
-![image]([[https://github.com/user-attachments/assets/0d96ddd1-747c-423b-ab5e-ff124971a0a0](https://concepto.de/wp-content/uploads/2020/08/Programacion-informatica-scaled-e1724960033513.jpg))
+![image](![image](https://github.com/user-attachments/assets/a8a99041-ef32-4974-81de-ff7ea065778c)
+)
 
 
 
