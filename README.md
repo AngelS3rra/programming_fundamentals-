@@ -6,8 +6,8 @@ Aquí estarán las actividades de la materia de programación
 
 
 
-![image](![image](https://github.com/user-attachments/assets/a8a99041-ef32-4974-81de-ff7ea065778c)
-)
+![image](https://github.com/user-attachments/assets/03c8a857-007d-476c-a3fe-dda4808d4548)
+
 
 
 
