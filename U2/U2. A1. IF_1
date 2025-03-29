@@ -1,0 +1,37 @@
+Algoritmo sin_titulo
+    Definir bytes, resultado Como Real
+    Definir unidad Como Cadena
+	
+    Escribir "Ingresa el número de bytes: "
+    Leer bytes
+	
+    Si bytes < 1024 Entonces
+        resultado = bytes
+        unidad = "bytes"
+    Sino
+        Si bytes < 1024^2 Entonces
+            resultado = bytes / 1024
+            unidad = "KB"
+        Sino
+            Si bytes < 1024^3 Entonces
+                resultado = bytes / (1024^2)
+                unidad = "MB"
+            Sino
+                Si bytes < 1024^4 Entonces
+                    resultado = bytes / (1024^3)
+                    unidad = "GB"
+                Sino
+                    Si bytes < 1024^5 Entonces
+                        resultado = bytes / (1024^4)
+                        unidad = "TB"
+                    Sino
+                        resultado = bytes / (1024^5)
+                        unidad = "PB"
+                    FinSi
+                FinSi
+            FinSi
+        FinSi
+    FinSi
+	
+    Escribir "El valor es: ", resultado, " ", unidad
+FinAlgoritmo
