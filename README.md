@@ -6,7 +6,7 @@ Aquí estarán las actividades de la materia de programación
 
 
 
-![image]([https://github.com/user-attachments/assets/0d96ddd1-747c-423b-ab5e-ff124971a0a0](https://concepto.de/wp-content/uploads/2020/08/Programacion-informatica-scaled-e1724960033513.jpg))
+![image]([[https://github.com/user-attachments/assets/0d96ddd1-747c-423b-ab5e-ff124971a0a0](https://concepto.de/wp-content/uploads/2020/08/Programacion-informatica-scaled-e1724960033513.jpg)](https://www.google.com/url?sa=i&url=https%3A%2F%2Flatam.emeritus.org%2Fblogs%2Fque-es-la-programacion%2F&psig=AOvVaw24VzKnaYLbUkCXnE0bS_3n&ust=1743361264279000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNjz9fj8r4wDFQAAAAAdAAAAABAI))
 
 
 
